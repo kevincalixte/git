@@ -24,6 +24,8 @@ git fetch
 -> behind = je dois pull / ahead = je dois push 
 -> behind = risque de conflits / ahead = les autres pourraient avoir besoin de tes changements
 
+- NE JAMAIS TRAVAILLER SUR MAIN
+
 - Cloner le depot
 git clone url
 cd dossier
@@ -44,6 +46,4 @@ git merge main
 
 - Si on souhaite push
 git push -u origin nombranche (la premiere fois)
-git push 
-
-(test)
+git push
