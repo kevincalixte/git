@@ -1,21 +1,21 @@
 # COMMANDES GIT
 
-git init
-git remote add origin url
-git status
-git add . ou git add nomdufichier
-git commit -m "message"
-git log
-git push -u origin branche
-git push origin branch
-git branch nombranche
-git checkout -b branche
-git branch
-git checkout branche
-git merge branche
-git branch -d branch
-git pull
-git fetch
+* git init
+* git remote add origin url
+* git status
+* git add . ou git add nomdufichier
+* git commit -m "message"
+* git log
+* git push -u origin branche
+* git push origin branch
+* git branch nombranche
+* git checkout -b branche
+* git branch
+* git checkout branche
+* git merge branche
+* git branch -d branch
+* git pull
+* git fetch
 
 # UTILISER GIT EN GROUPE
 -> git fetch permet de voir ce qui a changé sans fusionner, non obligatoire si git pull (car pull = fetch + merge)
