@@ -18,11 +18,11 @@
 * git fetch
 
 # UTILISER GIT EN GROUPE
--> git fetch permet de voir ce qui a changé sans fusionner, non obligatoire si git pull (car pull = fetch + merge)
--> git status permet de savoir si on doit faire un pull
--> apres un push on doit aller sur github pour créer le pull request et merge si on a les droits, ou l'autre doit valider
--> behind = je dois pull / ahead = je dois push 
--> behind = risque de conflits / ahead = les autres pourraient avoir besoin de tes changements
+* git fetch permet de voir ce qui a changé sans fusionner, non obligatoire si git pull (car pull = fetch + merge)
+* git status permet de savoir si on doit faire un pull
+* après un push on doit aller sur github pour créer le pull request et merge si on a les droits, ou l'autre doit valider
+* behind = je dois pull / ahead = je dois push
+* behind = risque de conflits / ahead = les autres pourraient avoir besoin de tes changements
 
 - NE JAMAIS TRAVAILLER SUR MAIN
 
