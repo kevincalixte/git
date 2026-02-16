@@ -28,7 +28,7 @@
 
 - Cloner le depot
 git clone url
-cd dossier
+* cd dossier
 
 - Creer une branche
 
