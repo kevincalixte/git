@@ -27,23 +27,23 @@
 - NE JAMAIS TRAVAILLER SUR MAIN
 
 - Cloner le depot
-git clone url
+* git clone url
 * cd dossier
 
 - Creer une branche
 
-git checkout -b nombranche
+* git checkout -b nombranche
 
 - Apres modifications
-git add .
-git commit -m "message"
+* git add .
+* git commit -m "message"
 
 - Pour mettre à jour le main et le rammenner dans la branche où on travaille
-git checkout main
-git pull
-git checkout nombranche
-git merge main
+* git checkout main
+* git pull
+* git checkout nombranche
+* git merge main
 
 - Si on souhaite push
-git push -u origin nombranche (la premiere fois)
-git push
+* git push -u origin nombranche (la premiere fois)
+* git push
